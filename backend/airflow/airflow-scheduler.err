@@ -1,0 +1,293 @@
+[2025-08-25 09:07:05 +0530] [91574] [INFO] Starting gunicorn 21.2.0
+[2025-08-25 09:07:05 +0530] [91574] [INFO] Listening at: http://[::]:8793 (91574)
+[2025-08-25 09:07:05 +0530] [91574] [INFO] Using worker: sync
+[2025-08-25 09:07:05 +0530] [91576] [INFO] Booting worker with pid: 91576
+[2025-08-25 09:07:05 +0530] [91577] [INFO] Booting worker with pid: 91577
+[2025-08-25 10:34:21 +0530] [91574] [CRITICAL] WORKER TIMEOUT (pid:91576)
+[2025-08-25 10:34:21 +0530] [91574] [CRITICAL] WORKER TIMEOUT (pid:91577)
+[2025-08-25 10:34:21 +0530] [91577] [INFO] Worker exiting (pid: 91577)
+[2025-08-25 10:34:21 +0530] [91576] [INFO] Worker exiting (pid: 91576)
+[2025-08-25 10:34:21 +0530] [91574] [ERROR] Worker (pid:91577) exited with code 1
+[2025-08-25 10:34:21 +0530] [91574] [ERROR] Worker (pid:91577) exited with code 1.
+[2025-08-25 10:34:21 +0530] [91574] [ERROR] Worker (pid:91576) exited with code 1
+[2025-08-25 10:34:21 +0530] [91574] [ERROR] Worker (pid:91576) exited with code 1.
+[2025-08-25 10:34:21 +0530] [12315] [INFO] Booting worker with pid: 12315
+[2025-08-25 10:34:21 +0530] [12316] [INFO] Booting worker with pid: 12316
+[2025-08-25 10:35:18 +0530] [91574] [CRITICAL] WORKER TIMEOUT (pid:12315)
+[2025-08-25 10:35:18 +0530] [91574] [CRITICAL] WORKER TIMEOUT (pid:12316)
+[2025-08-25 10:35:18 +0530] [12315] [INFO] Worker exiting (pid: 12315)
+[2025-08-25 10:35:18 +0530] [12316] [INFO] Worker exiting (pid: 12316)
+[2025-08-25 10:35:18 +0530] [91574] [ERROR] Worker (pid:12316) exited with code 1
+[2025-08-25 10:35:18 +0530] [91574] [ERROR] Worker (pid:12316) exited with code 1.
+[2025-08-25 10:35:18 +0530] [91574] [ERROR] Worker (pid:12315) exited with code 1
+[2025-08-25 10:35:18 +0530] [91574] [ERROR] Worker (pid:12315) exited with code 1.
+[2025-08-25 10:35:18 +0530] [12428] [INFO] Booting worker with pid: 12428
+[2025-08-25 10:35:18 +0530] [12429] [INFO] Booting worker with pid: 12429
+[2025-08-25 11:09:36 +0530] [91574] [CRITICAL] WORKER TIMEOUT (pid:12428)
+[2025-08-25 11:09:36 +0530] [91574] [CRITICAL] WORKER TIMEOUT (pid:12429)
+[2025-08-25 11:09:36 +0530] [12428] [INFO] Worker exiting (pid: 12428)
+[2025-08-25 11:09:36 +0530] [12429] [INFO] Worker exiting (pid: 12429)
+[2025-08-25 11:09:37 +0530] [91574] [ERROR] Worker (pid:12428) exited with code 1
+[2025-08-25 11:09:37 +0530] [91574] [ERROR] Worker (pid:12428) exited with code 1.
+[2025-08-25 11:09:37 +0530] [91574] [ERROR] Worker (pid:12429) exited with code 1
+[2025-08-25 11:09:37 +0530] [91574] [ERROR] Worker (pid:12429) exited with code 1.
+[2025-08-25 11:09:37 +0530] [19291] [INFO] Booting worker with pid: 19291
+[2025-08-25 11:09:37 +0530] [19292] [INFO] Booting worker with pid: 19292
+[2025-08-25 11:30:57 +0530] [91574] [CRITICAL] WORKER TIMEOUT (pid:19291)
+[2025-08-25 11:30:57 +0530] [91574] [CRITICAL] WORKER TIMEOUT (pid:19292)
+[2025-08-25 11:30:57 +0530] [19291] [INFO] Worker exiting (pid: 19291)
+[2025-08-25 11:30:57 +0530] [19292] [INFO] Worker exiting (pid: 19292)
+[2025-08-25 11:30:57 +0530] [91574] [ERROR] Worker (pid:19292) exited with code 1
+[2025-08-25 11:30:57 +0530] [91574] [ERROR] Worker (pid:19292) exited with code 1.
+[2025-08-25 11:30:57 +0530] [91574] [ERROR] Worker (pid:19291) exited with code 1
+[2025-08-25 11:30:57 +0530] [91574] [ERROR] Worker (pid:19291) exited with code 1.
+[2025-08-25 11:30:57 +0530] [22819] [INFO] Booting worker with pid: 22819
+[2025-08-25 11:30:57 +0530] [22820] [INFO] Booting worker with pid: 22820
+[2025-08-25 11:37:00 +0530] [91574] [CRITICAL] WORKER TIMEOUT (pid:22819)
+[2025-08-25 11:37:00 +0530] [91574] [CRITICAL] WORKER TIMEOUT (pid:22820)
+[2025-08-25 11:37:00 +0530] [22820] [INFO] Worker exiting (pid: 22820)
+[2025-08-25 11:37:00 +0530] [22819] [INFO] Worker exiting (pid: 22819)
+[2025-08-25 11:37:01 +0530] [91574] [ERROR] Worker (pid:22820) exited with code 1
+[2025-08-25 11:37:01 +0530] [91574] [ERROR] Worker (pid:22820) exited with code 1.
+[2025-08-25 11:37:01 +0530] [91574] [ERROR] Worker (pid:22819) was sent SIGKILL! Perhaps out of memory?
+[2025-08-25 11:37:01 +0530] [22850] [INFO] Booting worker with pid: 22850
+[2025-08-25 11:37:01 +0530] [22851] [INFO] Booting worker with pid: 22851
+[2025-08-25 11:38:06 +0530] [91574] [CRITICAL] WORKER TIMEOUT (pid:22850)
+[2025-08-25 11:38:06 +0530] [91574] [CRITICAL] WORKER TIMEOUT (pid:22851)
+[2025-08-25 11:38:06 +0530] [22850] [INFO] Worker exiting (pid: 22850)
+[2025-08-25 11:38:06 +0530] [22851] [INFO] Worker exiting (pid: 22851)
+[2025-08-25 11:38:06 +0530] [91574] [ERROR] Worker (pid:22850) exited with code 1
+[2025-08-25 11:38:06 +0530] [91574] [ERROR] Worker (pid:22850) exited with code 1.
+[2025-08-25 11:38:06 +0530] [91574] [ERROR] Worker (pid:22851) exited with code 1
+[2025-08-25 11:38:06 +0530] [91574] [ERROR] Worker (pid:22851) exited with code 1.
+[2025-08-25 11:38:06 +0530] [22915] [INFO] Booting worker with pid: 22915
+[2025-08-25 11:38:06 +0530] [22916] [INFO] Booting worker with pid: 22916
+[2025-08-25 11:50:41 +0530] [91574] [CRITICAL] WORKER TIMEOUT (pid:22915)
+[2025-08-25 11:50:41 +0530] [91574] [CRITICAL] WORKER TIMEOUT (pid:22916)
+[2025-08-25 11:50:41 +0530] [22915] [INFO] Worker exiting (pid: 22915)
+[2025-08-25 11:50:41 +0530] [22916] [INFO] Worker exiting (pid: 22916)
+[2025-08-25 11:50:41 +0530] [91574] [ERROR] Worker (pid:22915) exited with code 1
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 1086, in emit
+    stream.write(msg + self.terminator)
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 1086, in emit
+    stream.write(msg + self.terminator)
+  File "/Users/darshanpatil/Documents/Mern Stack/Refinify/backend/venv/lib/python3.9/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/Users/darshanpatil/Documents/Mern Stack/Refinify/backend/venv/lib/python3.9/site-packages/gunicorn/arbiter.py", line 527, in reap_workers
+    self.log.error('Worker (pid:%s) exited with code %s', wpid, exitcode)
+  File "/Users/darshanpatil/Documents/Mern Stack/Refinify/backend/venv/lib/python3.9/site-packages/gunicorn/glogging.py", line 272, in error
+    self.error_log.error(msg, *args, **kwargs)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 1475, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 1589, in _log
+    self.handle(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 1599, in handle
+    self.callHandlers(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 1661, in callHandlers
+    hdlr.handle(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 952, in handle
+    self.emit(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 1091, in emit
+    self.handleError(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 1004, in handleError
+    sys.stderr.write('--- Logging error ---\n')
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+Call stack:
+  File "<string>", line 1, in <module>
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/multiprocessing/spawn.py", line 129, in _main
+    return self._bootstrap(parent_sentinel)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/darshanpatil/Documents/Mern Stack/Refinify/backend/venv/lib/python3.9/site-packages/airflow/utils/serve_logs.py", line 179, in serve_logs
+    StandaloneGunicornApplication(wsgi_app, options).run()
+  File "/Users/darshanpatil/Documents/Mern Stack/Refinify/backend/venv/lib/python3.9/site-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/Users/darshanpatil/Documents/Mern Stack/Refinify/backend/venv/lib/python3.9/site-packages/gunicorn/arbiter.py", line 209, in run
+    self.sleep()
+  File "/Users/darshanpatil/Documents/Mern Stack/Refinify/backend/venv/lib/python3.9/site-packages/gunicorn/arbiter.py", line 360, in sleep
+    ready = select.select([self.PIPE[0]], [], [], 1.0)
+  File "/Users/darshanpatil/Documents/Mern Stack/Refinify/backend/venv/lib/python3.9/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/Users/darshanpatil/Documents/Mern Stack/Refinify/backend/venv/lib/python3.9/site-packages/gunicorn/arbiter.py", line 527, in reap_workers
+    self.log.error('Worker (pid:%s) exited with code %s', wpid, exitcode)
+  File "/Users/darshanpatil/Documents/Mern Stack/Refinify/backend/venv/lib/python3.9/site-packages/gunicorn/glogging.py", line 272, in error
+    self.error_log.error(msg, *args, **kwargs)
+Message: 'Worker (pid:%s) exited with code %s'
+Arguments: (22915, 1)
+[2025-08-25 11:50:41 +0530] [91574] [ERROR] Worker (pid:22915) exited with code 1.
+[2025-08-25 11:50:41 +0530] [22963] [INFO] Booting worker with pid: 22963
+[2025-08-25 11:50:41 +0530] [22967] [INFO] Booting worker with pid: 22967
+[2025-08-25 11:52:51 +0530] [91574] [CRITICAL] WORKER TIMEOUT (pid:22963)
+[2025-08-25 11:52:51 +0530] [91574] [CRITICAL] WORKER TIMEOUT (pid:22967)
+[2025-08-25 11:52:51 +0530] [22967] [INFO] Worker exiting (pid: 22967)
+[2025-08-25 11:52:51 +0530] [22963] [INFO] Worker exiting (pid: 22963)
+[2025-08-25 11:52:51 +0530] [91574] [ERROR] Worker (pid:22967) exited with code 1
+[2025-08-25 11:52:51 +0530] [91574] [ERROR] Worker (pid:22967) exited with code 1.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 1086, in emit
+    stream.write(msg + self.terminator)
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 1086, in emit
+    stream.write(msg + self.terminator)
+  File "/Users/darshanpatil/Documents/Mern Stack/Refinify/backend/venv/lib/python3.9/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/Users/darshanpatil/Documents/Mern Stack/Refinify/backend/venv/lib/python3.9/site-packages/gunicorn/arbiter.py", line 527, in reap_workers
+    self.log.error('Worker (pid:%s) exited with code %s', wpid, exitcode)
+  File "/Users/darshanpatil/Documents/Mern Stack/Refinify/backend/venv/lib/python3.9/site-packages/gunicorn/glogging.py", line 272, in error
+    self.error_log.error(msg, *args, **kwargs)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 1475, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 1589, in _log
+    self.handle(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 1599, in handle
+    self.callHandlers(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 1661, in callHandlers
+    hdlr.handle(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 952, in handle
+    self.emit(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 1091, in emit
+    self.handleError(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/logging/__init__.py", line 1004, in handleError
+    sys.stderr.write('--- Logging error ---\n')
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+Call stack:
+  File "<string>", line 1, in <module>
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/multiprocessing/spawn.py", line 129, in _main
+    return self._bootstrap(parent_sentinel)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/darshanpatil/Documents/Mern Stack/Refinify/backend/venv/lib/python3.9/site-packages/airflow/utils/serve_logs.py", line 179, in serve_logs
+    StandaloneGunicornApplication(wsgi_app, options).run()
+  File "/Users/darshanpatil/Documents/Mern Stack/Refinify/backend/venv/lib/python3.9/site-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/Users/darshanpatil/Documents/Mern Stack/Refinify/backend/venv/lib/python3.9/site-packages/gunicorn/arbiter.py", line 209, in run
+    self.sleep()
+  File "/Users/darshanpatil/Documents/Mern Stack/Refinify/backend/venv/lib/python3.9/site-packages/gunicorn/arbiter.py", line 360, in sleep
+    ready = select.select([self.PIPE[0]], [], [], 1.0)
+  File "/Users/darshanpatil/Documents/Mern Stack/Refinify/backend/venv/lib/python3.9/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/Users/darshanpatil/Documents/Mern Stack/Refinify/backend/venv/lib/python3.9/site-packages/gunicorn/arbiter.py", line 538, in reap_workers
+    self.log.error("Worker (pid:%s) exited with code %s.",
+  File "/Users/darshanpatil/Documents/Mern Stack/Refinify/backend/venv/lib/python3.9/site-packages/gunicorn/glogging.py", line 272, in error
+    self.error_log.error(msg, *args, **kwargs)
+Message: 'Worker (pid:%s) exited with code %s.'
+Arguments: (22967, 1)
+[2025-08-25 11:52:51 +0530] [22996] [INFO] Booting worker with pid: 22996
+[2025-08-25 11:52:51 +0530] [22997] [INFO] Booting worker with pid: 22997
+[2025-08-25 12:09:02 +0530] [91574] [CRITICAL] WORKER TIMEOUT (pid:22996)
+[2025-08-25 12:09:02 +0530] [91574] [CRITICAL] WORKER TIMEOUT (pid:22997)
+[2025-08-25 12:09:02 +0530] [22996] [INFO] Worker exiting (pid: 22996)
+[2025-08-25 12:09:02 +0530] [22997] [INFO] Worker exiting (pid: 22997)
+[2025-08-25 12:09:03 +0530] [91574] [ERROR] Worker (pid:22996) exited with code 1
+[2025-08-25 12:09:03 +0530] [91574] [ERROR] Worker (pid:22996) exited with code 1.
+[2025-08-25 12:09:03 +0530] [91574] [ERROR] Worker (pid:22997) was sent SIGKILL! Perhaps out of memory?
+[2025-08-25 12:09:03 +0530] [23061] [INFO] Booting worker with pid: 23061
+[2025-08-25 12:09:03 +0530] [23064] [INFO] Booting worker with pid: 23064
+[2025-08-25 12:22:53 +0530] [91574] [CRITICAL] WORKER TIMEOUT (pid:23061)
+[2025-08-25 12:22:53 +0530] [91574] [CRITICAL] WORKER TIMEOUT (pid:23064)
+[2025-08-25 12:22:53 +0530] [23061] [INFO] Worker exiting (pid: 23061)
+[2025-08-25 12:22:53 +0530] [23064] [INFO] Worker exiting (pid: 23064)
+[2025-08-25 12:22:53 +0530] [91574] [ERROR] Worker (pid:23064) exited with code 1
+[2025-08-25 12:22:53 +0530] [91574] [ERROR] Worker (pid:23064) exited with code 1.
+[2025-08-25 12:22:53 +0530] [91574] [ERROR] Worker (pid:23061) was sent SIGKILL! Perhaps out of memory?
+[2025-08-25 12:22:53 +0530] [23095] [INFO] Booting worker with pid: 23095
+[2025-08-25 12:22:53 +0530] [23096] [INFO] Booting worker with pid: 23096
+[2025-08-25 12:46:52 +0530] [91574] [CRITICAL] WORKER TIMEOUT (pid:23095)
+[2025-08-25 12:46:52 +0530] [91574] [CRITICAL] WORKER TIMEOUT (pid:23096)
+[2025-08-25 12:46:52 +0530] [23095] [INFO] Worker exiting (pid: 23095)
+[2025-08-25 12:46:52 +0530] [23096] [INFO] Worker exiting (pid: 23096)
+[2025-08-25 12:46:52 +0530] [91574] [ERROR] Worker (pid:23095) exited with code 1
+[2025-08-25 12:46:52 +0530] [91574] [ERROR] Worker (pid:23095) exited with code 1.
+[2025-08-25 12:46:52 +0530] [91574] [ERROR] Worker (pid:23096) exited with code 1
+[2025-08-25 12:46:52 +0530] [91574] [ERROR] Worker (pid:23096) exited with code 1.
+[2025-08-25 12:46:52 +0530] [28074] [INFO] Booting worker with pid: 28074
+[2025-08-25 12:46:52 +0530] [28075] [INFO] Booting worker with pid: 28075
+[2025-08-25 13:04:38 +0530] [91574] [CRITICAL] WORKER TIMEOUT (pid:28074)
+[2025-08-25 13:04:38 +0530] [91574] [CRITICAL] WORKER TIMEOUT (pid:28075)
+[2025-08-25 13:04:38 +0530] [28074] [INFO] Worker exiting (pid: 28074)
+[2025-08-25 13:04:38 +0530] [28075] [INFO] Worker exiting (pid: 28075)
+[2025-08-25 13:04:38 +0530] [91574] [ERROR] Worker (pid:28075) exited with code 1
+[2025-08-25 13:04:38 +0530] [91574] [ERROR] Worker (pid:28075) exited with code 1.
+[2025-08-25 13:04:38 +0530] [91574] [ERROR] Worker (pid:28074) exited with code 1
+[2025-08-25 13:04:38 +0530] [91574] [ERROR] Worker (pid:28074) exited with code 1.
+[2025-08-25 13:04:38 +0530] [29328] [INFO] Booting worker with pid: 29328
+[2025-08-25 13:04:38 +0530] [29329] [INFO] Booting worker with pid: 29329
+[2025-08-25 13:10:50 +0530] [91574] [CRITICAL] WORKER TIMEOUT (pid:29328)
+[2025-08-25 13:10:50 +0530] [91574] [CRITICAL] WORKER TIMEOUT (pid:29329)
+[2025-08-25 13:10:50 +0530] [29328] [INFO] Worker exiting (pid: 29328)
+[2025-08-25 13:10:50 +0530] [29329] [INFO] Worker exiting (pid: 29329)
+[2025-08-25 13:10:50 +0530] [91574] [ERROR] Worker (pid:29329) exited with code 1
+[2025-08-25 13:10:50 +0530] [91574] [ERROR] Worker (pid:29329) exited with code 1.
+[2025-08-25 13:10:50 +0530] [91574] [ERROR] Worker (pid:29328) was sent SIGKILL! Perhaps out of memory?
+[2025-08-25 13:10:50 +0530] [29359] [INFO] Booting worker with pid: 29359
+[2025-08-25 13:10:51 +0530] [29361] [INFO] Booting worker with pid: 29361
+[2025-08-25 13:13:16 +0530] [91574] [CRITICAL] WORKER TIMEOUT (pid:29359)
+[2025-08-25 13:13:16 +0530] [91574] [CRITICAL] WORKER TIMEOUT (pid:29361)
+[2025-08-25 13:13:16 +0530] [29359] [INFO] Worker exiting (pid: 29359)
+[2025-08-25 13:13:16 +0530] [29361] [INFO] Worker exiting (pid: 29361)
+[2025-08-25 13:13:16 +0530] [91574] [ERROR] Worker (pid:29361) exited with code 1
+[2025-08-25 13:13:16 +0530] [91574] [ERROR] Worker (pid:29361) exited with code 1.
+[2025-08-25 13:13:16 +0530] [91574] [ERROR] Worker (pid:29359) exited with code 1
+[2025-08-25 13:13:16 +0530] [91574] [ERROR] Worker (pid:29359) exited with code 1.
+[2025-08-25 13:13:16 +0530] [29527] [INFO] Booting worker with pid: 29527
+[2025-08-25 13:13:16 +0530] [29528] [INFO] Booting worker with pid: 29528
+[2025-08-25 13:26:07 +0530] [91574] [CRITICAL] WORKER TIMEOUT (pid:29527)
+[2025-08-25 13:26:07 +0530] [91574] [CRITICAL] WORKER TIMEOUT (pid:29528)
+[2025-08-25 13:26:07 +0530] [29528] [INFO] Worker exiting (pid: 29528)
+[2025-08-25 13:26:07 +0530] [29527] [INFO] Worker exiting (pid: 29527)
+[2025-08-25 13:26:07 +0530] [91574] [ERROR] Worker (pid:29527) exited with code 1
+[2025-08-25 13:26:07 +0530] [91574] [ERROR] Worker (pid:29527) exited with code 1.
+[2025-08-25 13:26:07 +0530] [91574] [ERROR] Worker (pid:29528) was sent SIGKILL! Perhaps out of memory?
+[2025-08-25 13:26:07 +0530] [29586] [INFO] Booting worker with pid: 29586
+[2025-08-25 13:26:07 +0530] [29587] [INFO] Booting worker with pid: 29587
+[2025-08-25 13:44:01 +0530] [91574] [CRITICAL] WORKER TIMEOUT (pid:29586)
+[2025-08-25 13:44:01 +0530] [91574] [CRITICAL] WORKER TIMEOUT (pid:29587)
+[2025-08-25 13:44:01 +0530] [29587] [INFO] Worker exiting (pid: 29587)
+[2025-08-25 13:44:01 +0530] [29586] [INFO] Worker exiting (pid: 29586)
+[2025-08-25 13:44:01 +0530] [91574] [ERROR] Worker (pid:29586) exited with code 1
+[2025-08-25 13:44:01 +0530] [91574] [ERROR] Worker (pid:29586) exited with code 1.
+[2025-08-25 13:44:01 +0530] [91574] [ERROR] Worker (pid:29587) was sent SIGKILL! Perhaps out of memory?
+[2025-08-25 13:44:01 +0530] [29684] [INFO] Booting worker with pid: 29684
+[2025-08-25 13:44:01 +0530] [29685] [INFO] Booting worker with pid: 29685
+[2025-08-25 14:00:52 +0530] [91574] [CRITICAL] WORKER TIMEOUT (pid:29684)
+[2025-08-25 14:00:52 +0530] [91574] [CRITICAL] WORKER TIMEOUT (pid:29685)
+[2025-08-25 14:00:52 +0530] [29684] [INFO] Worker exiting (pid: 29684)
+[2025-08-25 14:00:52 +0530] [29685] [INFO] Worker exiting (pid: 29685)
+[2025-08-25 14:00:52 +0530] [91574] [ERROR] Worker (pid:29684) exited with code 1
+[2025-08-25 14:00:52 +0530] [91574] [ERROR] Worker (pid:29684) exited with code 1.
+[2025-08-25 14:00:52 +0530] [91574] [ERROR] Worker (pid:29685) was sent SIGKILL! Perhaps out of memory?
+[2025-08-25 14:00:52 +0530] [29735] [INFO] Booting worker with pid: 29735
+[2025-08-25 14:00:52 +0530] [29736] [INFO] Booting worker with pid: 29736
+[2025-08-25 14:04:19 +0530] [91574] [CRITICAL] WORKER TIMEOUT (pid:29735)
+[2025-08-25 14:04:19 +0530] [91574] [CRITICAL] WORKER TIMEOUT (pid:29736)
+[2025-08-25 14:04:19 +0530] [29735] [INFO] Worker exiting (pid: 29735)
+[2025-08-25 14:04:19 +0530] [29736] [INFO] Worker exiting (pid: 29736)
+[2025-08-25 14:04:19 +0530] [91574] [ERROR] Worker (pid:29735) exited with code 1
+[2025-08-25 14:04:19 +0530] [91574] [ERROR] Worker (pid:29735) exited with code 1.
+[2025-08-25 14:04:19 +0530] [91574] [ERROR] Worker (pid:29736) was sent SIGKILL! Perhaps out of memory?
+[2025-08-25 14:04:19 +0530] [29766] [INFO] Booting worker with pid: 29766
+[2025-08-25 14:04:19 +0530] [29768] [INFO] Booting worker with pid: 29768
+[2025-08-25 14:25:39 +0530] [91574] [INFO] Handling signal: term
+[2025-08-25 14:25:39 +0530] [29766] [INFO] Worker exiting (pid: 29766)
+[2025-08-25 14:25:39 +0530] [29768] [INFO] Worker exiting (pid: 29768)
+[2025-08-25 14:25:39 +0530] [91574] [INFO] Shutting down: Master

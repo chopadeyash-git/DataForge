@@ -1,0 +1,55 @@
+/* Minimal WebView Fixes - No UI Changes */
+
+/* Prevent zoom and ensure proper scaling */
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  touch-action: manipulation;
+}
+
+/* Fix WebView rendering without changing layout */
+body {
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+  overscroll-behavior: none;
+  overflow-x: hidden;
+}
+
+/* Prevent horizontal scrolling */
+#root {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+/* WebView button fixes */
+button, .btn {
+  -webkit-appearance: none;
+  touch-action: manipulation;
+}
+
+/* WebView input fixes */
+input, textarea, select {
+  -webkit-appearance: none;
+  font-size: 16px; /* Prevents zoom on focus */
+}
+
+/* Fix WebView safe area spacing issues */
+.safe-area-top {
+  padding-top: 0 !important;
+}
+
+.safe-area-bottom {
+  padding-bottom: 0 !important;
+}
+
+/* Remove extra spacing above navbar in WebView */
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+html {
+  margin: 0 !important;
+  padding: 0 !important;
+}

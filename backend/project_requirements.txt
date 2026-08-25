@@ -1,0 +1,12 @@
+# Additional requirements for Project Collaboration System
+# Add these to your existing requirements.txt
+
+flask-jwt-extended>=4.4.4
+sqlalchemy>=1.4.0
+flask-sqlalchemy>=3.0.0
+
+# These should already be in your requirements.txt but ensure versions:
+pandas>=1.5.0
+numpy>=1.21.0
+flask>=2.2.0
+flask-cors>=4.0.0

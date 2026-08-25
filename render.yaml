@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: refinify-backend
+    env: python
+    buildCommand: cd backend && pip install -r requirements.txt
+    startCommand: cd backend && python app.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.9.16
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: SECRET_KEY
+        generateValue: true
+      - key: DATABASE_URL
+        value: sqlite:///app.db
+      - key: CORS_ORIGINS
+        value: https://your-vercel-app.vercel.app
+      - key: UPLOAD_FOLDER
+        value: uploads
+      - key: PORT
+        value: 10000
