@@ -6,6 +6,7 @@ const AuthContext = createContext({ user:null, authenticated:false, refresh:()=>
 
 export function AuthProvider({ children }){
 	const [user, setUser] = useState(null)
+	const [loading, setLoading] = useState(true)
 
 	const refresh = useCallback(async ()=>{
 		try{
@@ -13,6 +14,7 @@ const res = await fetch(`${API_BASE_URL}/api/auth/me`, { credentials:'include' }
 			const data = await res.json()
 			if(res.ok && data.is_authenticated){ setUser(data.user) } else { setUser(null) }
 		}catch{ setUser(null) }
+		finally { setLoading(false) }
 	}, [])
 
 	useEffect(()=>{ refresh() }, [refresh])
@@ -34,7 +36,7 @@ const res = await fetch(`${API_BASE_URL}/api/auth/me`, { credentials:'include' }
 	}, [refresh])
 
 	return (
-		<AuthContext.Provider value={{ user, authenticated: !!user, refresh, login, logout }}>
+		<AuthContext.Provider value={{ user, authenticated: !!user, loading, refresh, login, logout }}>
 			{children}
 		</AuthContext.Provider>
 	)

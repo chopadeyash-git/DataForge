@@ -31,44 +31,46 @@ import Projects from './pages/Projects.jsx'
 import CreateProject from './pages/CreateProject.jsx'
 import ProjectDashboard from './pages/ProjectDashboard.jsx'
 import ProjectDataCleaning from './pages/ProjectDataCleaning.jsx'
+import ProtectedRoute from './components/ProtectedRoute.jsx'
 
 function App() {
   return (
     <WorkflowProvider>
       <Layout>
         <Routes>
-          <Route path="/" element={<Dashboard />} />
-          <Route path="/data-cleaning" element={<DataCleaning />} />
-          <Route path="/augmentation" element={<Augmentation />} />
-          <Route path="/typo-correction" element={<TypoCorrection />} />
-          <Route path="/analytics" element={<Analytics />} />
-          <Route path="/data-encryption" element={<DataEncryption />} />
-          <Route path="/history" element={<History />} />
-          <Route path="/ai-assistant" element={<AIDataAssistant />} />
-          <Route path="/advanced-cleaning" element={<AdvancedCleaning />} />
-          <Route path="/synthetic-data" element={<SyntheticData />} />
-          <Route path="/privacy-protection" element={<PrivacyProtection />} />
-          
-          {/* Project Collaboration Routes */}
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/projects/create" element={<CreateProject />} />
-          <Route path="/projects/:projectId" element={<ProjectDashboard />} />
-          <Route path="/projects/:projectId/datasets/:datasetId/clean" element={<ProjectDataCleaning />} />
-          
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
-          <Route path="/profile" element={<Profile />} />
-          <Route path="/admin" element={<Admin />} />
+          
+          <Route path="/" element={<ProtectedRoute><Dashboard /></ProtectedRoute>} />
+          <Route path="/data-cleaning" element={<ProtectedRoute><DataCleaning /></ProtectedRoute>} />
+          <Route path="/augmentation" element={<ProtectedRoute><Augmentation /></ProtectedRoute>} />
+          <Route path="/typo-correction" element={<ProtectedRoute><TypoCorrection /></ProtectedRoute>} />
+          <Route path="/analytics" element={<ProtectedRoute><Analytics /></ProtectedRoute>} />
+          <Route path="/data-encryption" element={<ProtectedRoute><DataEncryption /></ProtectedRoute>} />
+          <Route path="/history" element={<ProtectedRoute><History /></ProtectedRoute>} />
+          <Route path="/ai-assistant" element={<ProtectedRoute><AIDataAssistant /></ProtectedRoute>} />
+          <Route path="/advanced-cleaning" element={<ProtectedRoute><AdvancedCleaning /></ProtectedRoute>} />
+          <Route path="/synthetic-data" element={<ProtectedRoute><SyntheticData /></ProtectedRoute>} />
+          <Route path="/privacy-protection" element={<ProtectedRoute><PrivacyProtection /></ProtectedRoute>} />
+          
+          {/* Project Collaboration Routes */}
+          <Route path="/projects" element={<ProtectedRoute><Projects /></ProtectedRoute>} />
+          <Route path="/projects/create" element={<ProtectedRoute><CreateProject /></ProtectedRoute>} />
+          <Route path="/projects/:projectId" element={<ProtectedRoute><ProjectDashboard /></ProtectedRoute>} />
+          <Route path="/projects/:projectId/datasets/:datasetId/clean" element={<ProtectedRoute><ProjectDataCleaning /></ProtectedRoute>} />
+          
+          <Route path="/profile" element={<ProtectedRoute><Profile /></ProtectedRoute>} />
+          <Route path="/admin" element={<ProtectedRoute><Admin /></ProtectedRoute>} />
           
           {/* Workflow Routes - accessible through data-cleaning */}
-          <Route path="/upload" element={<Upload />} />
-          <Route path="/summary" element={<Summary />} />
-          <Route path="/configuration" element={<Configuration />} />
-          <Route path="/data-augmentation" element={<DataAugmentation />} />
-          <Route path="/privacy-security" element={<PrivacySecurity />} />
-          <Route path="/outliers" element={<Outliers />} />
-          <Route path="/weights" element={<Weights />} />
-          <Route path="/results" element={<Results />} />
+          <Route path="/upload" element={<ProtectedRoute><Upload /></ProtectedRoute>} />
+          <Route path="/summary" element={<ProtectedRoute><Summary /></ProtectedRoute>} />
+          <Route path="/configuration" element={<ProtectedRoute><Configuration /></ProtectedRoute>} />
+          <Route path="/data-augmentation" element={<ProtectedRoute><DataAugmentation /></ProtectedRoute>} />
+          <Route path="/privacy-security" element={<ProtectedRoute><PrivacySecurity /></ProtectedRoute>} />
+          <Route path="/outliers" element={<ProtectedRoute><Outliers /></ProtectedRoute>} />
+          <Route path="/weights" element={<ProtectedRoute><Weights /></ProtectedRoute>} />
+          <Route path="/results" element={<ProtectedRoute><Results /></ProtectedRoute>} />
           
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>

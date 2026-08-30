@@ -1,53 +1,22 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { 
   FiMenu, FiUser, FiLogOut, FiLogIn, FiUserPlus, FiSettings, FiBell
 } from 'react-icons/fi'
 import { BsRobot } from 'react-icons/bs'
 import { API_BASE_URL } from '../config'
+import { useAuth } from '../hooks/useAuth.js'
 
 export default function MobileHeader({ onToggleSidebar }) {
   const [showUserMenu, setShowUserMenu] = useState(false)
-  const [user, setUser] = useState(null)
-  const [isAuthenticated, setIsAuthenticated] = useState(false)
+  const { authenticated: isAuthenticated, user, logout } = useAuth()
   const navigate = useNavigate()
-
-  useEffect(() => {
-    checkAuthStatus()
-  }, [])
-
-  const checkAuthStatus = async () => {
-    try {
-      const response = await fetch(`${API_BASE_URL}/api/auth/me`, {
-        credentials: 'include'
-      })
-      const data = await response.json()
-      
-      if (data.is_authenticated && data.user) {
-        setIsAuthenticated(true)
-        setUser(data.user)
-      } else {
-        setIsAuthenticated(false)
-        setUser(null)
-      }
-    } catch (error) {
-      console.error('Auth check failed:', error)
-      setIsAuthenticated(false)
-      setUser(null)
-    }
-  }
 
   const handleLogout = async () => {
     try {
-      await fetch(`${API_BASE_URL}/api/auth/logout`, {
-        method: 'POST',
-        credentials: 'include'
-      })
-      setIsAuthenticated(false)
-      setUser(null)
+      await logout()
       setShowUserMenu(false)
-      navigate('/')
-      window.location.reload()
+      navigate('/login')
     } catch (error) {
       console.error('Logout failed:', error)
     }
